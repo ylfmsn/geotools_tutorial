@@ -1,4 +1,4 @@
-package com.suntoon.tutorial;
+package com.suntoon.tutorial.filter;
 
 import org.geotools.data.DataStore;
 import org.geotools.data.DataStoreFactorySpi;

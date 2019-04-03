@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2802ef80-d8dc-4361-a33c-56dc00fbffae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/suntoon/tutorial/QueryLab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/suntoon/tutorial/crs/CRSLab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/suntoon/tutorial/feature/Csv2Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/suntoon/tutorial/quickstart/Quickstart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suntoon/tutorial/filter/QueryLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suntoon/tutorial/filter/QueryLab.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/suntoon/tutorial/quickstart/Quickstart.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/suntoon/tutorial/crs/CRSLab.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-855">
-              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -95,10 +92,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suntoon/tutorial/QueryLab.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suntoon/tutorial/filter/QueryLab.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3439">
-              <caret line="181" column="5" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
+            <state relative-caret-position="208">
+              <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,6 +131,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/suntoon/tutorial/crs/CRSLab.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suntoon/tutorial/feature/Csv2Shape.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suntoon/tutorial/QueryLab.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suntoon/tutorial/filter/QueryLab.java" />
       </list>
     </option>
   </component>
@@ -155,7 +153,19 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="geotools_tutorial" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -206,16 +216,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="crs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="geotools_tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="geotools_tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="feature" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,7 +228,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554257882483" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554258779973" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tileServer" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -300,15 +301,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554257180041</updated>
-      <workItem from="1554257183470" duration="698000" />
+      <workItem from="1554257183470" duration="1689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="698000" />
+    <option name="totallyTimeSpent" value="1689000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -316,7 +317,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.52111113" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32555556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32925472" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -335,7 +336,7 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Maven Projects" weight="0.32995737" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -365,7 +366,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/suntoon/tutorial/quickstart/Quickstart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -375,7 +376,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/suntoon/tutorial/crs/CRSLab.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-855">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -389,10 +390,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suntoon/tutorial/QueryLab.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suntoon/tutorial/filter/QueryLab.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3439">
-          <caret line="181" column="5" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
+        <state relative-caret-position="208">
+          <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
